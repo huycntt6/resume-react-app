@@ -1,6 +1,7 @@
 {
   "name": "demo-react",
   "version": "0.1.0",
+  "proxy": "https://server-node-fot.herokuapp.com/api",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
@@ -10,7 +11,6 @@
     "axios": "^0.20.0",
     "bootstrap": "^4.5.3",
     "google-map-react": "^2.1.8",
-    "http-proxy-middleware": "^1.0.5",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
