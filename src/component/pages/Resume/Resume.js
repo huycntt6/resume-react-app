@@ -136,21 +136,7 @@ const Resume = () => (
             <h3>My Project</h3>
         </div>
         <Row>
-            <Col xs={12} sm={6} md={4} className="project text-center">
-                <Link rel="noopener noreferrer" to="" onClick={(e)=>{e.preventDefault(); window.open('http://thefot.xyz/')}} target={"_blank"}>
-                    <img src={ironstyle} className="img-fluid" alt="project" />
-                </Link>
-            </Col>
-            <Col xs={12} sm={6} md={4} className="project text-center">
-                <Link rel="noopener noreferrer" to="" onClick={(e)=>{e.preventDefault(); window.open('http://naturix3tc.giahuy.3tc.vn/')}} target={"_blank"}>
-                    <img src={naturix} className="img-fluid" alt="project" />
-                </Link>
-            </Col>
-            <Col xs={12} sm={6} md={4} className="project text-center">
-                <Link rel="noopener noreferrer" to="" onClick={(e)=>{e.preventDefault(); window.open('http://piwoo3tc.giahuy.3tc.vn/')}} target={"_blank"}>
-                    <img src={piwoo} className="img-fluid" alt="project" />
-                </Link>
-            </Col>
+            
         </Row>
     </section>
 );
