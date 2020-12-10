@@ -1,7 +1,7 @@
 {
   "name": "demo-react",
   "version": "0.1.0",
-  "proxy": "https://server-node-fot.herokuapp.com/api",
+  "proxy": "https://server-node-fot.herokuapp.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
