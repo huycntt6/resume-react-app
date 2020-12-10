@@ -5,7 +5,7 @@ import ironstyle from '../../../media/image/ironstyle.png';
 import piwoo from '../../../media/image/piwoo.png';
 import { Link } from 'react-router-dom';
 
-export default () => (
+const Resume = () => (
     <section className="resume">
         <div className="page-title">
             <h1>Resume</h1>
@@ -154,3 +154,5 @@ export default () => (
         </Row>
     </section>
 );
+
+export default Resume;
